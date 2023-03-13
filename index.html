@@ -1,24 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Võe pra Nuvem - Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Võe pra Nuvem</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background">
-        <div class="clouds">
-            <img src="https://i.imgur.com/vPODXUg.png" alt="Clouds and Machines">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="hero-section">
+            <h1>Võe pra Nuvem</h1>
+            <p>Desenvolva suas habilidades em nuvem e acelere sua carreira</p>
+            <a href="#" class="btn-primary">Conheça nossos cursos</a>
         </div>
-        <div class="container">
-            <form>
-                <h1>Võe pra Nuvem</h1>
-                <input type="text" placeholder="Nome de usuário">
-                <input type="password" placeholder="Senha">
-                <button type="submit">Entrar</button>
-            </form>
+    </header>
+
+    <main>
+        <section class="about-us">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma empresa de treinamento em nuvem dedicada a ajudar profissionais a desenvolver habilidades em nuvem e acelerar suas carreiras.</p>
+            <p>Oferecemos cursos práticos e projetados por especialistas em nuvem, para que nossos alunos possam adquirir as habilidades necessárias para projetar, implementar e gerenciar aplicativos na nuvem, independentemente da plataforma escolhida.</p>
+        </section>
+
+        <section class="services">
+            <h2>Nossos Serviços</h2>
+            <div class="service-card">
+                <img src="https://i.imgur.com/LggHSzL.jpg" alt="DevOps">
+                <h3>DevOps</h3>
+                <p>Oferecemos treinamentos completos em DevOps, desde o planejamento até a entrega contínua, para que você possa automatizar seus processos e garantir a qualidade do seu software.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://i.imgur.com/x6QwU7V.jpg" alt="Cloud Computing">
+                <h3>Cloud Computing</h3>
+                <p>Aprenda a projetar, implementar e gerenciar infraestruturas de nuvem seguras e escaláveis em qualquer plataforma, incluindo AWS, Microsoft Azure e Google Cloud.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://i.imgur.com/0frG5fX.jpg" alt="Cloud Native">
+                <h3>Cloud Native</h3>
+                <p>Desenvolva aplicativos nativos em nuvem, com arquitetura baseada em microsserviços, containers e orquestração de serviços, para melhorar a eficiência, escalabilidade e confiabilidade de seus sistemas.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://imgur.com/KjOhpID.jpg" alt="Cyber Security">
+                <h3>Cyber Security</h3>
+                <p>Aprenda a proteger seus aplicativos e dados na nuvem com nossos cursos de segurança cibernética. Oferecemos treinamentos em conformidade regulatória, privacidade de dados, proteção contra ameaças cibernéticas e muito mais.</p>
+            </div>
+        </section>
+            <section class="certification">
+        <h2>Certificações</h2>
+        <p>Aqui estão alguns dos cursos de certificação que oferecemos:</p>
+        <ul>
+            <li><a href="#">AZ-900: Microsoft Azure Fundamentals</a></li>
+            <li><a href="#">AZ-400: Designing and Implementing Microsoft DevOps Solutions</a></li>
+            <li><a href="#">SC-100: Microsoft Security Operations Analyst</a></li>
+        </ul>
+    </section>
+
+    <section class="blog">
+        <h2>Blog</h2>
+        <div class="blog-card">
+            <img src="https://i.imgur.com/kkOeK2B.jpg" alt="DevOps Blog Post">
+            <h3>5 práticas recomendadas para implementar DevOps em sua organização</h3>
+            <p>Descubra as melhores práticas para implementar DevOps em sua organização, desde a criação de uma cultura de colaboração até a seleção das ferramentas certas.</p>
+            <a href="#" class="btn-secondary">Leia Mais</a>
         </div>
-    </div>
-    <script src="script.js"></script>
+        <div class="blog-card">
+            <img src="https://i.imgur.com/WiSWh7C.jpg" alt="Cloud Computing Blog Post">
+            <h3>Por que a nuvem é o futuro da computação</h3>
+            <p>Entenda por que a nuvem está se tornando a plataforma de escolha para empresas de todos os tamanhos, desde startups até grandes corporações.</p>
+            <a href="#" class="btn-secondary">Leia Mais</a>
+        </div>
+        <div class="blog-card">
+            <img src="https://i.imgur.com/lWylc8C.jpg" alt="Cyber Security Blog Post">
+            <h3>Como manter seus dados seguros na nuvem</h3>
+            <p>Aprenda as melhores práticas para proteger seus dados na nuvem, desde a escolha de senhas seguras até a implementação de medidas de segurança em várias camadas.</p>
+            <a href="#" class="btn-secondary">Leia Mais</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Võe pra Nuvem - Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
+```
